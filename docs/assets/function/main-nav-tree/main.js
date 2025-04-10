@@ -8,7 +8,7 @@ document$.subscribe(function () {
   const oldList = document.querySelector('.doc-index');
   if (oldList) oldList.remove();
 
-  fetch('/search/search_index.json')
+  fetch('search/search_index.json')
     .then(res => res.json())
     .then(data => {
       const pages = data.docs.filter(p =>

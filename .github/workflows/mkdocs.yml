@@ -16,6 +16,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Git
+        run: sudo apt-get install -y git
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -31,7 +36,7 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install MkDocs
-        run: pip install mkdocs mkdocs-material
+        run: pip install mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin
 
       - name: Build site
         run: mkdocs build
