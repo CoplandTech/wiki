@@ -1,0 +1,78 @@
+.report-tooltip {
+    position: fixed;
+    background-color: var(--md-accent-bg-color);
+    color: var(--md-accent-fg-color);
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    box-shadow: var(--md-shadow-z2);
+    white-space: nowrap;
+    z-index: 9999;
+    pointer-events: none;
+  }
+  
+  .report-modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .report-modal .modal-content {
+    background-color: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: var(--md-shadow-z3);
+    font-family: var(--md-text-font);
+  }
+  
+  .report-modal h2 {
+    margin-top: 0;
+    color: var(--md-primary-fg-color);
+  }
+  
+  .report-modal textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    resize: vertical;
+    border: 1px solid var(--md-default-fg-color--light);
+    border-radius: 4px;
+    background-color: var(--md-code-bg-color);
+    color: var(--md-code-fg-color);
+    font-family: var(--md-code-font);
+    font-size: 14px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .modal-buttons button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .modal-buttons button#cancel-report {
+    background: transparent;
+    color: var(--md-accent-fg-color);
+  }
+  
+  .modal-buttons button#send-report {
+    background-color: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+  }
+  

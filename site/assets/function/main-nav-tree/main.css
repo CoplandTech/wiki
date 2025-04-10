@@ -1,0 +1,38 @@
+.category-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.tile {
+  width: 240px;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tile a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.tile h4 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.tile p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
