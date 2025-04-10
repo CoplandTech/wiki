@@ -1,0 +1,102 @@
+site_name: Документация
+site_url: https://bely.remirk.space/site
+copyright: © Plan7 2011 - 2025
+
+docs_dir: docs/ 
+site_dir: site/
+plugins:
+  - search
+  - tags
+theme:
+  name: material
+  language: ru
+  logo: assets/images/favicon/icon.svg
+  favicon: assets/images/favicon/icon.png
+  features:
+    # Настройки навигационной
+    - navigation.tracking 
+    - navigation.instant
+    - navigation.tabs 
+    - navigation.top 
+    - navigation.path
+    - toc.follow
+    - navigation.indexes
+    # Настройка поиска
+    - search.highlight
+    - search.share
+    # Подвал снизу
+    - navigation.footer
+
+  palette: 
+    # Palette toggle for light mode
+    
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+extra:
+  analytics: 
+    provider: google
+    property: foobar
+    feedback:
+      title: Была ли эта страница полезна?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Эта страница помогла!
+          data: 1
+          note: >-
+            Спасибо за Ваш отзыв.
+        - icon: material/thumb-down-outline
+          name: Эта страница не помогла!
+          data: -1
+          note: >- 
+            Нам жаль...
+    
+extra_javascript:
+  - assets/function/main-nav-tree/main.js
+  - assets/function/hotkeys/main.js
+  - assets/function/report-error/main.js
+extra_css:
+  - assets/function/main-nav-tree/main.css
+  - assets/function/hotkeys/main.css
+  - assets/function/report-error/main.css
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      permalink_title: Постоянная ссылка
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md
+  - Cat 1:
+    - pages/cat1/Getting started.md
+    - pages/cat1/Creating your site.md
+    - "Cat 1-1":
+      - pages/cat1/cat1-1/iae.md
+  - Cat 2: 
+    - About: pages/cat2/about.md
