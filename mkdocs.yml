@@ -90,6 +90,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.emoji
 
 nav:
   - Home: index.md
