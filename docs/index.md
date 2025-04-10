@@ -81,14 +81,6 @@ theme:
 | `PUT`       | :material-check-all: Update resource |
 | `DELETE`    | :material-close:     Delete resource |
 
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
-
-[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-[^2]:
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
 
 Text can be {--deleted--} and replacement text {++added++}. This can also be
 combined into {~~one~>a single~~} operation. {==Highlighting==} is also
@@ -124,3 +116,5 @@ The HTML specification is maintained by the W3C.
 
 *[HTML]: Hyper Text Markup Language
 *[W3C]: World Wide Web Consortium
+
+111

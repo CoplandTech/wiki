@@ -1,6 +1,5 @@
 site_name: Документация
 site_url: https://bely.remirk.space/
-repo_url: https://github.com/CoplandTech/wiki
 copyright: © Plan7 2011 - 2025
 
 docs_dir: docs/ 
@@ -10,6 +9,7 @@ plugins:
   - tags
   - git-revision-date-localized:
       enable_creation_date: true
+      type: timeago
 theme:
   name: material
   language: ru
