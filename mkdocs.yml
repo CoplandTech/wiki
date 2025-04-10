@@ -69,28 +69,42 @@ extra_css:
   - assets/function/report-error/main.css
 
 markdown_extensions:
-  - toc:
-      permalink: true
-      permalink_title: Постоянная ссылка
-  - attr_list
-  - md_in_html
-  - admonition
-  - pymdownx.details
-  - pymdownx.highlight:
+  - attr_list # Annotations, Buttons, Grids, Icons/Emojis, Images, Tooltips
+  - pymdownx.superfences # Admonitions, Annotations, Code blocks, Content tabs
+  - md_in_html # Annotations, Grids, Images
+  - admonition # Admonitions
+  - pymdownx.details # Admonitions
+  - tables # Data tables
+  - abbr # Tooltips
+  - footnotes # Footnotes
+  - pymdownx.critic # Formatting
+  - pymdownx.caret # Formatting
+  - pymdownx.keys # Formatting
+  - pymdownx.mark # Formatting
+  - pymdownx.tilde # Formatting
+  - pymdownx.blocks.caption # Images
+  - def_list # Lists
+  - pymdownx.inlinehilite # Code blocks
+  - pymdownx.snippets # Code blocks, Tooltips
+  # Lists
+  - pymdownx.tasklist: 
+      custom_checkbox: true
+  # Code blocks
+  - pymdownx.highlight: 
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tabbed:
+  # Content tabs
+  - pymdownx.tabbed: 
       alternate_style: true
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.emoji
+  # Icons/Emojis
+  - pymdownx.emoji: 
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # Permalink
+  - toc:
+      permalink: true
+      permalink_title: Постоянная ссылка
 
 nav:
   - Home: index.md

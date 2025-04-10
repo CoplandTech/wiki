@@ -14,3 +14,5 @@ search:
 ++ctrl+alt+del++ - тест
 
 ++ctrl+del++ - тест2
+
+:fontawesome-regular-face-laugh-wink:
