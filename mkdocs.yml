@@ -1,5 +1,7 @@
 site_name: Документация
 site_url: https://bely.remirk.space/
+site_description: >-
+  Документация проекта Plan7. Техническая, пользовательская
 copyright: © Plan7 2011 - 2025
 
 docs_dir: docs/ 
@@ -36,19 +38,24 @@ theme:
     - content.tabs.link
     # Tooltrips
     - content.tooltips
+  font:
+    text: Roboto
+    code: Roboto Mono
   icon:
     annotation: material/star-four-points-circle
 
   palette: 
     # Palette toggle for light mode
-    
     - scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Тёмная тема
-
     # Palette toggle for dark mode
     - scheme: slate
+      primary: black
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Светлая тема
