@@ -44,10 +44,10 @@ theme:
   icon:
     annotation: material/star-four-points-circle
 
-  palette: 
+  palette:  
     # Palette toggle for light mode
     - scheme: default
-      primary: indigo
+      primary: black
       accent: indigo
       toggle:
         icon: material/weather-night
@@ -127,10 +127,19 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Cat 1:
-    - pages/cat1/Getting started.md
-    - pages/cat1/Creating your site.md
-    - "Cat 1-1":
-      - pages/cat1/cat1-1/iae.md
-  - Cat 2: 
-    - About: pages/cat2/about.md
+  - Getting started:
+    - pages/getting started/getting-started.md
+    - pages/getting started/license.md
+    - Tutorials:
+      - pages/getting-started/tutorials/index.md
+      - "Blogs":
+        - pages/getting-started/tutorials/blogs/basic.md
+      - "Social cards":
+        - pages/getting-started/tutorials/social/basic.md
+    - Changelog:
+      - pages/getting-started/changelog/index.md
+      - How to upgrade: pages/getting-started/how to upgrade/upgrade.md
+  - Setup:
+    - pages/setup/index.md
+    - Changing the colors: pages/setup/changing-the-colors.md
+    - Changing the fonts: pages/setup/changing the fonts/changing-the-fonts.md
