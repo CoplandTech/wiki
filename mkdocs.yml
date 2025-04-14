@@ -128,8 +128,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting started:
-    - pages/getting started/getting-started.md
-    - pages/getting started/license.md
+    - pages/getting-started/getting-started.md
+    - pages/getting-started/license.md
     - Tutorials:
       - pages/getting-started/tutorials/index.md
       - "Blogs":
@@ -138,8 +138,8 @@ nav:
         - pages/getting-started/tutorials/social/basic.md
     - Changelog:
       - pages/getting-started/changelog/index.md
-      - How to upgrade: pages/getting-started/how to upgrade/upgrade.md
+      - How to upgrade: pages/getting-started/changelog/how-to-upgrade/upgrade.md
   - Setup:
     - pages/setup/index.md
     - Changing the colors: pages/setup/changing-the-colors.md
-    - Changing the fonts: pages/setup/changing the fonts/changing-the-fonts.md
+    - Changing the fonts: pages/setup/changing-the-fonts.md

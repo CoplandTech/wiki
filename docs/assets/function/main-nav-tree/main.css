@@ -7,17 +7,15 @@
 
 .tile {
   width: 240px;
-  background: #fff;
-  border: 1px solid #eee;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-typeset-table-color);
   padding: 16px;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .tile:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .tile a {
@@ -33,6 +31,6 @@
 
 .tile p {
   margin: 0;
-  color: #666;
+  color: var(--md-default-fg-color--light);
   font-size: 14px;
 }
