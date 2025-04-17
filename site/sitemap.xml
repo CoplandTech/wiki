@@ -2,26 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://bely.remirk.space/</loc>
-         <lastmod>2025-04-10</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
          <loc>https://bely.remirk.space/tags/</loc>
-         <lastmod>2025-04-10</lastmod>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
-         <loc>https://bely.remirk.space/pages/cat1/Creating%20your%20site/</loc>
-         <lastmod>2025-04-10</lastmod>
+         <loc>https://bely.remirk.space/pages/getting-started/getting-started/</loc>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
-         <loc>https://bely.remirk.space/pages/cat1/Getting%20started/</loc>
-         <lastmod>2025-04-10</lastmod>
+         <loc>https://bely.remirk.space/pages/getting-started/license/</loc>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
-         <loc>https://bely.remirk.space/pages/cat1/cat1-1/iae/</loc>
-         <lastmod>2025-04-10</lastmod>
+         <loc>https://bely.remirk.space/pages/getting-started/changelog/</loc>
+         <lastmod>2025-04-17</lastmod>
     </url>
     <url>
-         <loc>https://bely.remirk.space/pages/cat2/about/</loc>
-         <lastmod>2025-04-10</lastmod>
+         <loc>https://bely.remirk.space/pages/getting-started/changelog/how-to-upgrade/upgrade/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://bely.remirk.space/pages/getting-started/tutorials/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://bely.remirk.space/pages/getting-started/tutorials/blogs/basic/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://bely.remirk.space/pages/getting-started/tutorials/social/basic/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://bely.remirk.space/pages/setup/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://bely.remirk.space/pages/setup/changing-the-colors/</loc>
+         <lastmod>2025-04-17</lastmod>
+    </url>
+    <url>
+         <loc>https://bely.remirk.space/pages/setup/changing-the-fonts/</loc>
+         <lastmod>2025-04-17</lastmod>
     </url>
 </urlset>
