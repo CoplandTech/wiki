@@ -1,6 +1,7 @@
 site_name: Документация
 site_url: https://bely.remirk.space/
-repo_url: https://github.com/CoplandTech/wiki
+site_description: >-
+  Документация проекта Plan7. Техническая, пользовательская
 copyright: © Plan7 2011 - 2025
 
 docs_dir: docs/ 
@@ -10,6 +11,7 @@ plugins:
   - tags
   - git-revision-date-localized:
       enable_creation_date: true
+      type: timeago
 theme:
   name: material
   language: ru
@@ -36,19 +38,24 @@ theme:
     - content.tabs.link
     # Tooltrips
     - content.tooltips
+  font:
+    text: Roboto
+    code: Roboto Mono
   icon:
     annotation: material/star-four-points-circle
 
-  palette: 
+  palette:  
     # Palette toggle for light mode
-    
     - scheme: default
+      primary: black
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Тёмная тема
-
     # Palette toggle for dark mode
     - scheme: slate
+      primary: black
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Светлая тема
@@ -120,10 +127,19 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Cat 1:
-    - pages/cat1/Getting started.md
-    - pages/cat1/Creating your site.md
-    - "Cat 1-1":
-      - pages/cat1/cat1-1/iae.md
-  - Cat 2: 
-    - About: pages/cat2/about.md
+  - Getting started:
+    - pages/getting-started/getting-started.md
+    - pages/getting-started/license.md
+    - Tutorials:
+      - pages/getting-started/tutorials/index.md
+      - "Blogs":
+        - pages/getting-started/tutorials/blogs/basic.md
+      - "Social cards":
+        - pages/getting-started/tutorials/social/basic.md
+    - Changelog:
+      - pages/getting-started/changelog/index.md
+      - How to upgrade: pages/getting-started/changelog/how-to-upgrade/upgrade.md
+  - Setup:
+    - pages/setup/index.md
+    - Changing the colors: pages/setup/changing-the-colors.md
+    - Changing the fonts: pages/setup/changing-the-fonts.md
